@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="ball"><circle cx="29" cy="30" r="27"/></clipPath>
+  </defs>
+  <!-- ekor benang -->
+  <path d="M47 50c5 5 9 8 14 6" fill="none" stroke="#b4532a" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- gulungan -->
+  <circle cx="29" cy="30" r="27" fill="#b4532a"/>
+  <g clip-path="url(#ball)" fill="none" stroke="#f6f1e9" stroke-width="3.4" stroke-linecap="round">
+    <!-- lilitan miring -->
+    <path d="M4 22Q22 8 44 4" stroke-opacity=".75"/>
+    <path d="M2 34Q26 14 56 12" stroke-opacity=".75"/>
+    <path d="M6 48Q30 26 60 26" stroke-opacity=".75"/>
+    <!-- lilitan silang -->
+    <path d="M22 4Q42 26 38 60" stroke-opacity=".45"/>
+    <path d="M38 2Q56 22 54 46" stroke-opacity=".45"/>
+  </g>
+</svg>
